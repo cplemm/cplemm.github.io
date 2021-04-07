@@ -6,16 +6,16 @@
   },
   "servers": [
     {
-        "url": "https://clemmopenapifunc.azurewebsites.net/api"
+        "url": "https://clemmopenapifunc.azurewebsites.net"
     }
 ] ,
-  "host": "clemmopenapifunc.azurewebsites.net/api",
+  "host": "clemmopenapifunc.azurewebsites.net",
   "basePath": "/api",
   "schemes": [
     "https"
   ],
   "paths": {
-    "/HttpTrigger": {
+    "/api/HttpTrigger": {
       "get": {
         "tags": [
           "name"
