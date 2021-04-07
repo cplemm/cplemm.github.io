@@ -1,0 +1,60 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Azure Functions Open API Extension",
+    "version": "1.0.0"
+  },
+  "host": "clemmopenapifunc.azurewebsites.net",
+  "basePath": "/api",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/HttpTrigger": {
+      "get": {
+        "tags": [
+          "name"
+        ],
+        "summary": "Gets the name",
+        "description": "This gets the name.",
+        "operationId": "getName",
+        "produces": [
+          "text/plain"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "name",
+            "description": "The name",
+            "required": true,
+            "type": "string",
+            "x-ms-summary": "The name",
+            "x-ms-visibility": "important"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "This returns the response",
+            "schema": {
+              "type": "string"
+            },
+            "x-ms-summary": "The response"
+          }
+        },
+        "security": [
+          {
+            "function_key": [ ]
+          }
+        ],
+        "x-ms-visibility": "important"
+      }
+    }
+  },
+  "securityDefinitions": {
+    "function_key": {
+      "type": "apiKey",
+      "name": "code",
+      "in": "query"
+    }
+  }
+}
