@@ -6,7 +6,7 @@
   },
   "servers": [
     {
-        "url": "https://clemmopenapifunc.azurewebsites.net"
+        "url": "https://clemmopenapifunc.azurewebsites.net/api"
     }
 ] ,
   "host": "clemmopenapifunc.azurewebsites.net",
