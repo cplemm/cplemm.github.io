@@ -4,6 +4,11 @@
     "title": "Azure Functions Open API Extension",
     "version": "1.0.0"
   },
+  "servers": [
+    {
+        "url": "https://clemmopenapifunc.azurewebsites.net"
+    }
+] ,
   "host": "clemmopenapifunc.azurewebsites.net",
   "basePath": "/api",
   "schemes": [
