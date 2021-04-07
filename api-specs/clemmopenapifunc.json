@@ -9,7 +9,7 @@
         "url": "https://clemmopenapifunc.azurewebsites.net/api"
     }
 ] ,
-  "host": "clemmopenapifunc.azurewebsites.net",
+  "host": "clemmopenapifunc.azurewebsites.net/api",
   "basePath": "/api",
   "schemes": [
     "https"
